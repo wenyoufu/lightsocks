@@ -49,11 +49,11 @@ func BenchmarkOldEncodeCopy(b *testing.B) {
 		var pswd password
 		dst := SecureTCPConn{
 			fakeReadWriterCloser{},
-			newCipher(&pswd),
+			NewCipher(&pswd),
 		}
 		src := SecureTCPConn{
 			fakeReadWriterCloser{},
-			newCipher(&pswd),
+			NewCipher(&pswd),
 		}
 		b.ResetTimer()
 		b.RunParallel(func(pb *testing.PB) {
@@ -69,11 +69,11 @@ func BenchmarkEncodeCopy(b *testing.B) {
 		var pswd password
 		dst := SecureTCPConn{
 			fakeReadWriterCloser{},
-			newCipher(&pswd),
+			NewCipher(&pswd),
 		}
 		src := SecureTCPConn{
 			fakeReadWriterCloser{},
-			newCipher(&pswd),
+			NewCipher(&pswd),
 		}
 		b.ResetTimer()
 		b.RunParallel(func(pb *testing.PB) {
