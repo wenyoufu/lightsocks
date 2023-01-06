@@ -115,3 +115,7 @@ sudo launchctl unload -w /Library/LaunchDaemons/lightsocks.plist
 - [lightsocks-node](https://github.com/chrisyer/lightsocks-nodejs)：Node.js 实现版本；
 - [lightsocks-c](https://github.com/LeeReindeer/lightsocks-c)：C语言 实现版本；
 - [lightsocks-cxx](https://github.com/maxlv7/LightSocks-cxx): C++ 实现版本；
+
+
+
+代理介绍：https://blog.k4nz.com/646561bc7f2ece9d9574a4445de93ec5/
