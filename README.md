@@ -119,3 +119,6 @@ sudo launchctl unload -w /Library/LaunchDaemons/lightsocks.plist
 
 
 代理介绍：https://blog.k4nz.com/646561bc7f2ece9d9574a4445de93ec5/
+
+
+参考解释：https://github.com/gwuhaolin/blog/issues/12
